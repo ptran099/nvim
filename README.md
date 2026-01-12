@@ -18,6 +18,10 @@ To delete the symlink:
         Plugins:
 
     t31a_init.lua 
+        Plugins:
+            ellisonleao/gruvbox.nvim
+            hrsh7th/nvim-cmp
+            hrsh7th/cmp-nvim-lsp
 
     t44a_init.vim supports autocomplete, lspconfig deprecated error
         Plugins:
