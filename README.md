@@ -2,6 +2,11 @@
 An attempt at unifying my nvim config across all my development machines.
 
 # Installation:
+To download the configs seamlessly, change directory to:
+    cd ~/.config
+Then clone the repository:
+    git clone https://github.com/ptran099/nvim.git
+
 To use the configs, enter in terminal in the path ~/.config/nvim:
     ln -s <lua config of choice> init.lua
 or
