@@ -1,6 +1,9 @@
 # Description
 An attempt at unifying my nvim config across all my development machines.
 
+# Dependencies
+Requires prior installation of vim-plug from https://github.com/junegunn/vim-plug
+
 # Installation:
 To download the configs seamlessly, change directory to:
     cd ~/.config
