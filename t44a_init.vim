@@ -149,11 +149,28 @@ vim.cmd("set keymap=unicode-math")
   -- Set up lspconfig.
   local capabilities = require('cmp_nvim_lsp').default_capabilities()
   local lspconfig = require('lspconfig')
-  local servers = { 'pyright', 'ts_ls', 'clangd', 'lua_ls' }
+  local servers = {
+	  'pyright',		-- Python
+	  'ts_ls',			-- Typescript
+	  'clangd',			-- C++
+	  'lua_ls',			-- Lua
+	  'rust_analyzer',	-- Rust
+	  'ruby_lsp',		-- Ruby
+	  'prolog_ls',		-- Prolog
+  }
 
   for _, lsp in ipairs(servers) do
 	  lspconfig[lsp].setup {
 		  capabilities = capabilities
 	  }
   end
+
+lspconfig.prolog_ls.setup{
+  	--cmd = { "swipl", "-g", "prolog_lsp:run", "-t", "halt" },
+	cmd = { "swipl", "-g", "use_module(library(lsp_server)).", "-g", "lsp_server:main", "-t", "halt", "--", "stdio" },
+	filetypes = {"prolog"},
+	root_markers = {"pack.pl"},
+	capabilities = capabilities
+	--filetypes = { "prolog" }
+  }
 EOF
