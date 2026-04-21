@@ -1,1 +1,0 @@
-t39_init.lua
