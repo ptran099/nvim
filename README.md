@@ -21,9 +21,17 @@ To delete the symlink:
 
 # Details:
     t48a_init.lua has error and warning highlights
+        Version: NVIM v0.11.x
         Plugins:
     t48b_init.lua has LSP but no autocomplete
+        Version: NVIM v0.11.x
         Plugins:
+    t49c_init.lua is barebones and only accumulates plugins as needed
+        Version: NVIM v0.12.1
+        Plugins:
+            gruvbox
+        Settings:
+            colorscheme gruvbox
 
     t31a_init.lua 
         Plugins:

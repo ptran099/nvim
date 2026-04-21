@@ -1,5 +1,6 @@
 --[[
 -- Peter Tran's Definitive Neovim Configuration File
+-- Tested for: NVIM v0.12.1
 -- ]]
 local vim = vim
 local plug = vim.fn['plug#']
