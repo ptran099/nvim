@@ -16,3 +16,4 @@ vim.call('plug#end')
 -- Commands
 -- ]]
 vim.cmd('colorscheme gruvbox')
+vim.cmd('set tabstop=4')
