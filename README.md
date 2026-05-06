@@ -26,14 +26,16 @@ To delete the symlink:
     t48b_init.lua has LSP but no autocomplete
         Version: NVIM v0.11.x
         Plugins:
-    t49c_init.lua is barebones and only accumulates plugins as needed
+    t48c_init.lua is barebones and only accumulates plugins as needed
         Version: NVIM v0.12.1
         Plugins:
-            gruvbox
+            ellisonleao/gruvbox
+            joshdick/onedark.vim
         Settings:
-            colorscheme gruvbox
+            colorscheme onedark
 
-    t31a_init.lua 
+    t31a_init.lua
+        Version: NVIM v0.11.x
         Plugins:
             ellisonleao/gruvbox.nvim
             hrsh7th/nvim-cmp

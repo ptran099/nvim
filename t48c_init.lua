@@ -9,11 +9,12 @@ local plug = vim.fn['plug#']
 -- Plugin repositories
 -- ]]
 vim.call('plug#begin')
-plug('ellisonleao/gruvbox.nvim')
+plug('ellisonleao/gruvbox.nvim') -- default true-color mode
+plug('joshdick/onedark.vim') -- default 256-color mode
 vim.call('plug#end')
 
 --[[
 -- Commands
 -- ]]
-vim.cmd('colorscheme gruvbox')
+vim.cmd('colorscheme onedark')
 vim.cmd('set tabstop=4')
