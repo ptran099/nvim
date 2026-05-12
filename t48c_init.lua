@@ -18,3 +18,4 @@ vim.call('plug#end')
 -- ]]
 vim.cmd('colorscheme onedark')
 vim.cmd('set tabstop=4')
+vim.cmd('set shiftwidth=4') -- number of spaces when I press tab
